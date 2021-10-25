@@ -1,0 +1,581 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schvaleni xmlns="http://ifis.bbm.cz/v1118/eschval" xmlns:es="http://ifis.bbm.cz/v1118/eschval" xmlns:ess="http://mvcr.cz/ess/v_1.0.0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ifis.bbm.cz/v1118/eschval file:/C:/Users/jpomac/Desktop/XSD/new/ifis_eschval_11.xsd">
+  <id>1601</id>
+  <ekj_id>1</ekj_id>
+  <stav>o</stav>
+  <doklad>
+    <uloha>032</uloha>
+    <id>1613501055</id>
+  </doklad>
+  <es:referent xmlns="http://ifis.bbm.cz/v1118/core">
+    <id>18867</id>
+    <jmeno>Jitka</jmeno>
+    <prijmeni>Adamec</prijmeni>
+    <os_cislo>61143</os_cislo>
+    <kontakty>
+      <spojeni>
+        <id>99010866</id>
+        <typ>tlf</typ>
+        <hodnota>tmalkus@bbm.cz</hodnota>
+      </spojeni>
+      <spojeni>
+        <id>99021253</id>
+        <typ>tlf</typ>
+        <hodnota>tmalkus@bbm.cz</hodnota>
+      </spojeni>
+      <spojeni>
+        <id>618</id>
+        <typ>mail</typ>
+        <hodnota>tmalkus@bbm.cz</hodnota>
+      </spojeni>
+    </kontakty>
+  </es:referent>
+  <radky>
+    <radek>
+      <id>2665</id>
+      <id_rpd>276234</id_rpd>
+      <cislo>1</cislo>
+      <polozka>Tisk a vazba publikace ATLANTIS podle předaného podkladu-203 ks</polozka>
+      <zaklad_dph>38446.28</zaklad_dph>
+      <id_dph>117</id_dph>
+      <nazev_dph>21  BNO</nazev_dph>
+      <sazba_dph>21</sazba_dph>
+      <dph>8073.72</dph>
+      <cena_celkem>46520</cena_celkem>
+      <es:zdroj xmlns="http://ifis.bbm.cz/v1118/core">
+        <stredisko>
+          <id>548</id>
+          <kod>16117</kod>
+          <nazev>ústav logistiky a managementu dopravy</nazev>
+        </stredisko>
+        <typ_akce>
+          <id>681</id>
+          <kod>681</kod>
+          <nazev>Zahr.proj. vzdělávací *PP</nazev>
+        </typ_akce>
+        <akce>
+          <id>8400026250</id>
+          <nazev>100040F000 ZP ATLANTIS Adminis</nazev>
+        </akce>
+        <k_polozka>
+          <id>1</id>
+          <kod>1ND</kod>
+          <nazev>1ND-Přímé/Nerozl./HČ-Dot.</nazev>
+        </k_polozka>
+      </es:zdroj>
+      <id_rozpoctu>1836</id_rozpoctu>
+      <!-- Nutno předvyplnit -->
+      <es:schvaluje xmlns="http://ifis.bbm.cz/v1118/core">
+        <jmeno/>
+        <prijmeni/>
+        <os_cislo/>
+      </es:schvaluje>
+    </radek>
+  </radky>
+  <detail>
+    <zav_faktura xmlns="http://ifis.bbm.cz/v1118/zav" xmlns:zav="http://ifis.bbm.cz/v1118/zav">
+      <typ_dokladu>f</typ_dokladu>
+      <cislo_dokladu>1613501055</cislo_dokladu>
+      <denik>
+        <cislo>500</cislo>
+        <nazev>Dodavatelé - NEI</nazev>
+      </denik>
+      <zav:zdroj xmlns="http://ifis.bbm.cz/v1118/core">
+        <stredisko>
+          <kod>16117</kod>
+          <nazev>ústav logistiky a managementu dopravy</nazev>
+        </stredisko>
+        <typ_akce>
+          <kod>681</kod>
+          <nazev>Zahr.proj. vzdělávací *PP</nazev>
+        </typ_akce>
+        <akce>
+          <nazev>100040F000 ZP ATLANTIS Adminis</nazev>
+        </akce>
+        <k_polozka>
+          <kod>1ND</kod>
+          <nazev>1ND-Přímé/Nerozl./HČ-Dot.</nazev>
+        </k_polozka>
+      </zav:zdroj>
+      <stav_dokladu>d</stav_dokladu>
+      <zav:obdobi xmlns="http://ifis.bbm.cz/v1118/core">
+        <mesic>9</mesic>
+        <rok4>2013</rok4>
+      </zav:obdobi>
+      <zav:bank_ucet xmlns="http://ifis.bbm.cz/v1118/core">
+        <id>17405</id>
+        <nazev>16 Běžný účet</nazev>
+        <cislo>19-3322370227</cislo>
+        <iban>CZ63 0100 0000 1933 2237 0227</iban>
+        <swift>KOMBCZPPXXX</swift>
+        <banka>
+          <id>62617</id>
+          <nazev>Komerční banka, a.s.</nazev>
+          <int_nazev>KOMERCNI BANKA, A.S.</int_nazev>
+          <ico>45317054</ico>
+          <dic>CZ699001182</dic>
+          <kod>0100</kod>
+          <mena>CZK</mena>
+        </banka>
+        <ssmb/>
+        <mena>CZK</mena>
+      </zav:bank_ucet>
+      <zav:vlastni_firma xmlns="http://ifis.bbm.cz/v1118/core">
+        <id>89</id>
+        <subjekt>
+          <id>61104</id>
+          <nazev>BBM s.r.o</nazev>
+          <int_nazev>VYV</int_nazev>
+          <ico>68407700</ico>
+          <dic>CZ68407700</dic>
+          <kod/>
+          <mena>CZK</mena>
+        </subjekt>
+        <cast>Oddělení vývoje aplikací</cast>
+        <adresa>
+          <id>358951</id>
+          <ulice>Kocínova</ulice>
+          <cp>138/5</cp>
+          <mesto>
+            <id>4918</id>
+            <nazev>PÍSEK</nazev>
+            <psc>397 01</psc>
+            <zeme>
+              <kod>CZE</kod>
+              <nazev>Česká republika</nazev>
+              <nazev_local>CZECH REPUBLIC</nazev_local>
+            </zeme>
+          </mesto>
+        </adresa>
+        <psc>397 01</psc>
+      </zav:vlastni_firma>
+      <zav:bank_ucet_dod xmlns="http://ifis.bbm.cz/v1118/core">
+        <id>487</id>
+        <nazev/>
+        <cislo>1415910297</cislo>
+        <iban>CZ02 0100 0000 0014 1591 0297</iban>
+        <swift/>
+        <banka>
+          <id>62617</id>
+          <nazev>Komerční banka, a.s.</nazev>
+          <int_nazev>KOMERCNI BANKA, A.S.</int_nazev>
+          <ico>45317054</ico>
+          <dic>CZ699001182</dic>
+          <kod>0100</kod>
+          <mena>CZK</mena>
+        </banka>
+        <ssmb/>
+        <mena>CZK</mena>
+      </zav:bank_ucet_dod>
+      <zav:firma xmlns="http://ifis.bbm.cz/v1118/core">
+        <id>190</id>
+        <subjekt>
+          <id>20876</id>
+          <nazev>REPRO FETTERLE, spol. s r. o.</nazev>
+          <int_nazev>REPRO FETTERLE</int_nazev>
+          <ico>44793448</ico>
+          <dic>CZ44793448</dic>
+          <kod/>
+          <mena>CZK</mena>
+        </subjekt>
+        <adresa>
+          <id>10090</id>
+          <ulice>Jugoslávskych partyzánů</ulice>
+          <cp>1580</cp>
+          <mesto>
+            <id>4327</id>
+            <nazev>PRAHA 6</nazev>
+            <psc>160 00</psc>
+            <zeme>
+              <kod>CZE</kod>
+              <nazev>Česká republika</nazev>
+              <nazev_local>CZECH REPUBLIC</nazev_local>
+            </zeme>
+          </mesto>
+        </adresa>
+        <psc>160 00</psc>
+      </zav:firma>
+      <zav:zpu xmlns="http://ifis.bbm.cz/v1118/core">
+        <priznak>p</priznak>
+        <nazev>Převodním příkazem</nazev>
+      </zav:zpu>
+      <datum>07.10.2013</datum>
+      <datum_spl>14.10.2013</datum_spl>
+      <datum_uzp>30.09.2013</datum_uzp>
+      <variab_smb>100036313</variab_smb>
+      <konst_smb>0308</konst_smb>
+      <spec_smb/>
+      <dodaci_list/>
+      <objednavka>1611730017</objednavka>
+      <sparovani>
+        <sparovano id="1611730017" uloha="303">46520</sparovano>
+      </sparovani>
+      <smlouva>5105000068</smlouva>
+      <popis>Tisk a vazba publikace ATLANTIS podle předaného podkladu-203 ks</popis>
+      <vz_cislo/>
+      <vz_typ/>
+      <vz_id/>
+      <fakt_dodavatele>10003632013</fakt_dodavatele>
+      <cislo_faktury>1613501055</cislo_faktury>
+      <zav:referent xmlns="http://ifis.bbm.cz/v1118/core">
+        <id>51039</id>
+        <titul_pred/>
+        <jmeno>Eva</jmeno>
+        <prijmeni>Nováková</prijmeni>
+        <titul_za/>
+        <os_cislo>355650</os_cislo>
+        <funkce/>
+        <subjekt_adresa>
+          <id>89</id>
+          <subjekt>
+            <id>61104</id>
+            <nazev>BBM s.r.o</nazev>
+            <int_nazev>VYV</int_nazev>
+            <ico>68407700</ico>
+            <dic>CZ68407700</dic>
+            <kod/>
+            <mena>CZK</mena>
+          </subjekt>
+          <cast>Oddělení vývoje aplikací</cast>
+          <adresa>
+            <id>358951</id>
+            <ulice>Kocínova</ulice>
+            <cp>138/5</cp>
+            <mesto>
+              <id>4918</id>
+              <nazev>PÍSEK</nazev>
+              <psc>397 01</psc>
+              <zeme>
+                <kod>CZE</kod>
+                <nazev>Česká republika</nazev>
+                <nazev_local>CZECH REPUBLIC</nazev_local>
+              </zeme>
+            </mesto>
+          </adresa>
+          <psc>397 01</psc>
+        </subjekt_adresa>
+        <kontakty>
+          <spojeni hlavni="true">
+            <id>99027971</id>
+            <typ>tlf</typ>
+            <hodnota>tmalkus@bbm.cz</hodnota>
+          </spojeni>
+        </kontakty>
+      </zav:referent>
+      <proplatit>
+        <schvaleno>false</schvaleno>
+        <duvod>ke schválení 7.10.2013,schváleno</duvod>
+      </proplatit>
+      <zav:schvalil xmlns="http://ifis.bbm.cz/v1118/core">
+        <id>48030</id>
+        <titul_pred/>
+        <jmeno>Otto</jmeno>
+        <prijmeni>Brožová</prijmeni>
+        <titul_za/>
+        <os_cislo>70009</os_cislo>
+        <funkce/>
+        <subjekt_adresa>
+          <id>89</id>
+          <subjekt>
+            <id>61104</id>
+            <nazev>BBM s.r.o</nazev>
+            <int_nazev>VYV</int_nazev>
+            <ico>68407700</ico>
+            <dic>CZ68407700</dic>
+            <kod/>
+            <mena>CZK</mena>
+          </subjekt>
+          <cast>Oddělení vývoje aplikací</cast>
+          <adresa>
+            <id>358951</id>
+            <ulice>Kocínova</ulice>
+            <cp>138/5</cp>
+            <mesto>
+              <id>4918</id>
+              <nazev>PÍSEK</nazev>
+              <psc>397 01</psc>
+              <zeme>
+                <kod>CZE</kod>
+                <nazev>Česká republika</nazev>
+                <nazev_local>CZECH REPUBLIC</nazev_local>
+              </zeme>
+            </mesto>
+          </adresa>
+          <psc>397 01</psc>
+        </subjekt_adresa>
+        <kontakty>
+          <spojeni hlavni="true">
+            <id>99015353</id>
+            <typ>tlf</typ>
+            <hodnota>tmalkus@bbm.cz</hodnota>
+          </spojeni>
+          <spojeni hlavni="true">
+            <id>1374</id>
+            <typ>mail</typ>
+            <hodnota>tmalkus@bbm.cz</hodnota>
+          </spojeni>
+        </kontakty>
+      </zav:schvalil>
+      <danovy_doklad>true</danovy_doklad>
+      <radky>
+        <radek>
+          <id>276234</id>
+          <cislo>1</cislo>
+          <text>Tisk a vazba publikace ATLANTIS podle předaného podkladu-203 ks</text>
+          <zaklad_dph>38446.28</zaklad_dph>
+          <sazba_dph>21</sazba_dph>
+          <dph>8073.72</dph>
+          <cena_celkem>46520</cena_celkem>
+          <mena>CZK</mena>
+        </radek>
+        <sum_zaklad_dph>38446.28</sum_zaklad_dph>
+        <sum_dph>8073.72</sum_dph>
+        <sum_celkem>46520</sum_celkem>
+        <mena>CZK</mena>
+      </radky>
+      <rekapitulace_dph>
+        <radek_dph>
+          <id>117</id>
+          <nazev>Dotace + příspěvek</nazev>
+          <sazba_dph>21</sazba_dph>
+          <zaklad_dph>38446.28</zaklad_dph>
+          <dph>8073.72</dph>
+          <cena_celkem>46520</cena_celkem>
+        </radek_dph>
+        <sum_zaklad_dph>38446.28</sum_zaklad_dph>
+        <sum_dph>8073.72</sum_dph>
+        <sum_celkem>46520</sum_celkem>
+      </rekapitulace_dph>
+      <k_uhrade>46520</k_uhrade>
+      <k_uhrade_mena/>
+      <mena>CZK</mena>
+    </zav_faktura>
+  </detail>
+  <dokumenty>
+    <es:dokument xmlns="http://ifis.bbm.cz/v650/prilohy">
+      <Identifikator>
+        <ess:HodnotaID>67123</ess:HodnotaID>
+        <ess:ZdrojID>iFIS</ess:ZdrojID>
+      </Identifikator>
+      <FileLink dmFileMetaType="enclosure" dmFileGuid="a7d3ae3f-8f15-44ba-873c-446858a79337" dmFileDescr="JU chyba planovace.png"/>
+      <ekj_id>1</ekj_id>
+      <uloha>032</uloha>
+      <entita>TEKDOFA</entita>
+      <id>1613501055</id>
+      <typ_domena>PRILOHATYP</typ_domena>
+      <typ>K</typ>
+      <PravniVaha>
+        <ess:PravniVahaId>A</ess:PravniVahaId>
+        <ess:PravniVahaText>Originál</ess:PravniVahaText>
+      </PravniVaha>
+      <popis>TMAL ZAV sken faktury</popis>
+      <zdroj>R</zdroj>
+      <docsize>105214</docsize>
+    </es:dokument>
+    <es:dokument xmlns="http://ifis.bbm.cz/v650/prilohy">
+      <Identifikator>
+        <ess:HodnotaID>67122</ess:HodnotaID>
+        <ess:ZdrojID>iFIS</ess:ZdrojID>
+      </Identifikator>
+      <FileLink dmFileMetaType="enclosure" dmFileGuid="7885821d-0176-46d8-9893-f1a199c828aa" dmFileDescr="AMU WM - LOV na RZP s detailem ZF.png"/>
+      <ekj_id>1</ekj_id>
+      <uloha>032</uloha>
+      <entita>TEKDOFA</entita>
+      <id>1613501055</id>
+      <typ_domena>PRILOHATYP</typ_domena>
+      <PravniVaha>
+        <ess:PravniVahaId>A</ess:PravniVahaId>
+        <ess:PravniVahaText>Originál</ess:PravniVahaText>
+      </PravniVaha>
+      <popis>TMAL ZAV sken faktury</popis>
+      <zdroj>R</zdroj>
+      <docsize>79841</docsize>
+    </es:dokument>
+    <es:dokument xmlns="http://ifis.bbm.cz/v650/prilohy">
+      <Identifikator>
+        <ess:HodnotaID>67121</ess:HodnotaID>
+        <ess:ZdrojID>iFIS</ess:ZdrojID>
+      </Identifikator>
+      <FileLink dmFileMetaType="enclosure" dmFileGuid="22bb27d9-4742-4359-a100-1114db91c6e3" dmFileDescr="AMU - vyber zakazky s duplicitou ZOSO dle ROLE_PORADI.png"/>
+      <ekj_id>1</ekj_id>
+      <uloha>082</uloha>
+      <entita>TRSHLA</entita>
+      <id>7216</id>
+      <typ_domena>DOCTYP</typ_domena>
+      <typ>N</typ>
+      <PravniVaha>
+        <ess:PravniVahaId>A</ess:PravniVahaId>
+        <ess:PravniVahaText>Originál</ess:PravniVahaText>
+      </PravniVaha>
+      <popis>TMAL SMl priloha typu Návrh</popis>
+      <zdroj>R</zdroj>
+      <docsize>117154</docsize>
+    </es:dokument>
+    <es:dokument xmlns="http://ifis.bbm.cz/v650/prilohy">
+      <Identifikator>
+        <ess:HodnotaID>67120</ess:HodnotaID>
+        <ess:ZdrojID>iFIS</ess:ZdrojID>
+      </Identifikator>
+      <FileLink dmFileMetaType="enclosure" dmFileGuid="c5bf4aab-823b-4fb6-9ed5-8e30444a98f5" dmFileDescr="2016-09-22.png"/>
+      <ekj_id>1</ekj_id>
+      <uloha>082</uloha>
+      <entita>TRSHLA</entita>
+      <id>7216</id>
+      <typ_domena>DOCTYP</typ_domena>
+      <typ>Z</typ>
+      <PravniVaha>
+        <ess:PravniVahaId>A</ess:PravniVahaId>
+        <ess:PravniVahaText>Originál</ess:PravniVahaText>
+      </PravniVaha>
+      <popis>TMAL SML prilohy typu Zápis</popis>
+      <zdroj>R</zdroj>
+      <docsize>50657</docsize>
+    </es:dokument>
+    <es:dokument xmlns="http://ifis.bbm.cz/v650/prilohy">
+      <Identifikator>
+        <ess:HodnotaID>67119</ess:HodnotaID>
+        <ess:ZdrojID>iFIS</ess:ZdrojID>
+      </Identifikator>
+      <FileLink dmFileMetaType="enclosure" dmFileGuid="348156d0-8bb8-4e6f-8ad6-10a18aa4bc4a" dmFileDescr="DSC_0148.JPG"/>
+      <ekj_id>1</ekj_id>
+      <uloha>012</uloha>
+      <entita>J_ZAK</entita>
+      <id>8400026250</id>
+      <typ_domena>DOCTYZ</typ_domena>
+      <typ>N</typ>
+      <PravniVaha>
+        <ess:PravniVahaId>A</ess:PravniVahaId>
+        <ess:PravniVahaText>Originál</ess:PravniVahaText>
+      </PravniVaha>
+      <popis>TMAL priloha typu Návrh</popis>
+      <zdroj>R</zdroj>
+      <docsize>2469848</docsize>
+    </es:dokument>
+    <es:dokument xmlns="http://ifis.bbm.cz/v650/prilohy">
+      <Identifikator>
+        <ess:HodnotaID>67118</ess:HodnotaID>
+        <ess:ZdrojID>iFIS</ess:ZdrojID>
+      </Identifikator>
+      <FileLink dmFileMetaType="enclosure" dmFileGuid="d1de4f3f-54a0-479e-9b29-11654e95aa97" dmFileDescr="2016-09-22 (1).png"/>
+      <ekj_id>1</ekj_id>
+      <uloha>012</uloha>
+      <entita>J_ZAK</entita>
+      <id>8400026250</id>
+      <typ_domena>DOCTYZ</typ_domena>
+      <typ>Z</typ>
+      <PravniVaha>
+        <ess:PravniVahaId>A</ess:PravniVahaId>
+        <ess:PravniVahaText>Originál</ess:PravniVahaText>
+      </PravniVaha>
+      <popis>TMAL priloha typu Zapis</popis>
+      <zdroj>R</zdroj>
+      <docsize>244530</docsize>
+    </es:dokument>
+  </dokumenty>
+  <komentar>DENÍK: 500    OBDOBÍ: 09/13    HLAVNÍ ZF: 16117 / 681 / 100040F000 ZP ATLANTIS Adminis / 1ND-Přímé/Nerozl./HČ-Dot.
+OBJEDNÁVKA: 1611730017          SMLOUVA: 5105000068          PID: 
+VBU: 19-3322370227/0100     VSMB: 100036313     CUC: 1415910297/0100
+POPIS: Tisk a vazba publikace ATLANTIS podle předaného podkladu-203 ks</komentar>
+  <es:zmeny>
+    <es:detail>
+      <zav_faktura_upd xmlns="http://ifis.bbm.cz/v1118/zav" xmlns:zav="http://ifis.bbm.cz/v1118/zav">
+        <zav:zdroj xmlns="http://ifis.bbm.cz/v1118/core">
+          <stredisko>
+            <kod>16117</kod>
+            <nazev>ústav logistiky a managementu dopravy</nazev>
+          </stredisko>
+          <typ_akce>
+            <kod>681</kod>
+            <nazev>Zahr.proj. vzdělávací *PP</nazev>
+          </typ_akce>
+          <akce>
+            <nazev>100040F000 ZP ATLANTIS Adminis</nazev>
+          </akce>
+          <k_polozka>
+            <kod>1ND</kod>
+            <nazev>1ND-Přímé/Nerozl./HČ-Dot.</nazev>
+          </k_polozka>
+        </zav:zdroj>
+        <zav:bank_ucet xmlns="http://ifis.bbm.cz/v1118/core">
+          <id>17405</id>
+          <nazev>16 Běžný účet</nazev>
+          <cislo>19-3322370227</cislo>
+          <iban>CZ63 0100 0000 1933 2237 0227</iban>
+          <swift>KOMBCZPPXXX</swift>
+          <banka>
+            <id>62617</id>
+            <nazev>Komerční banka, a.s.</nazev>
+            <int_nazev>KOMERCNI BANKA, A.S.</int_nazev>
+            <ico>45317054</ico>
+            <dic>CZ699001182</dic>
+            <kod>0100</kod>
+            <mena>CZK</mena>
+          </banka>
+          <ssmb/>
+          <mena>CZK</mena>
+        </zav:bank_ucet>
+        <sparovani>
+          <sparovano id="1611730017" uloha="303">46520</sparovano>
+        </sparovani>
+        <smlouva>5105000068</smlouva>
+        <vz_cislo>11/2315</vz_cislo>
+        <vz_typ>123</vz_typ>
+        <vz_id>123456789</vz_id>
+        <radky>
+          <radek>
+            <id>276234</id>
+            <cislo>1</cislo>
+            <text>Tisk a vazba publikace ATLANTIS podle předaného podkladu-203 ks</text>
+            <zaklad_dph>38446.28</zaklad_dph>
+            <sazba_dph>21</sazba_dph>
+            <dph>8073.72</dph>
+            <cena_celkem>46520</cena_celkem>
+            <mena>CZK</mena>
+          </radek>
+        </radky>
+      </zav_faktura_upd>
+    </es:detail>
+    <es:dokumenty>
+      <es:dokument xmlns="http://ifis.bbm.cz/v650/prilohy">
+        <Identifikator>
+          <ess:HodnotaID>67123</ess:HodnotaID>
+          <ess:ZdrojID>iFIS</ess:ZdrojID>
+        </Identifikator>
+        <FileLink dmFileMetaType="enclosure" dmFileGuid="a7d3ae3f-8f15-44ba-873c-446858a79337" dmFileDescr="JU chyba planovace.png"/>
+        <ekj_id>1</ekj_id>
+        <uloha>032</uloha>
+        <entita>TEKDOFA</entita>
+        <id>1613501055</id>
+        <typ_domena>PRILOHATYP</typ_domena>
+        <typ>K</typ>
+        <PravniVaha>
+          <ess:PravniVahaId>A</ess:PravniVahaId>
+          <ess:PravniVahaText>Originál</ess:PravniVahaText>
+        </PravniVaha>
+        <popis>TMAL ZAV sken faktury</popis>
+        <zdroj>R</zdroj>
+        <docsize>105214</docsize>
+      </es:dokument>
+      <es:dokument xmlns="http://ifis.bbm.cz/v650/prilohy">
+        <Identifikator>
+          <ess:HodnotaID>67122</ess:HodnotaID>
+          <ess:ZdrojID>iFIS</ess:ZdrojID>
+        </Identifikator>
+        <FileLink dmFileMetaType="enclosure" dmFileGuid="7885821d-0176-46d8-9893-f1a199c828aa" dmFileDescr="AMU WM - LOV na RZP s detailem ZF.png"/>
+        <ekj_id>1</ekj_id>
+        <uloha>032</uloha>
+        <entita>TEKDOFA</entita>
+        <id>1613501055</id>
+        <typ_domena>PRILOHATYP</typ_domena>
+        <PravniVaha>
+          <ess:PravniVahaId>A</ess:PravniVahaId>
+          <ess:PravniVahaText>Originál</ess:PravniVahaText>
+        </PravniVaha>
+        <popis>TMAL ZAV sken faktury</popis>
+        <zdroj>R</zdroj>
+        <docsize>79841</docsize>
+      </es:dokument>
+    </es:dokumenty>
+  </es:zmeny>
+</schvaleni>
